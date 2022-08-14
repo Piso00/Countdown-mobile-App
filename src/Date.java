@@ -1,12 +1,13 @@
 public class Date {
-    int newYear;
-    int newMonth;
-    int newDay;
+    int day;
+    int month;
+    int year;
+
 
     //constructor
-    public Date(int year, int month, int day){
-        newYear = year;
-        newMonth = month;
-        newDay = day;
+    public Date(int day,int month, int year ){
+        this.year = year;
+        this.month = month;
+        this.day = day;
     }
 }
